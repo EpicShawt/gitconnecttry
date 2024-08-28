@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contain{
+display: grid;
+grid-template-columns:1fr 1fr 1fr ;
+box-sizing: border-box;
+}
+.boxes{
+    height: 50vh;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box1{
+    background-color: brown;
+}
+.box2{
+    background-color: aqua;
+}
+.box3{
+    background-color: blueviolet;
+}
+.box4{
+    background-color: rgb(37, 109, 35);
+}
+@media (max-width:600px) {
+    .contain{
+        display: grid;
+        grid-template-columns:1fr ;
+        box-sizing: border-box;
+        }
+        .boxes{
+            margin: 10px;
+            height: 20vh;
+        }
+    
+}
